@@ -7,8 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "node --test tests/auth.test.mjs && vitest run",
-    "test:ui": "vitest run"
+    "test": "node --test tests/auth.test.mjs && vitest run --cache false",
+    "test:ui": "vitest run --cache false"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
